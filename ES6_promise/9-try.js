@@ -6,6 +6,6 @@ export default function guardrail(mathFunction) {
     const { name, message } = e;
     queue.push(`${name}: ${message}`);
   }
-    queue.push('Guardrail was processed');
+  queue.push('Guardrail was processed');
   return queue;
 }
